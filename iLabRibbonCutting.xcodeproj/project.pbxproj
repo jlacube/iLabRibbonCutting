@@ -15,6 +15,15 @@
 		462C45EA14F87B0600CDC670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 462C45E914F87B0600CDC670 /* AppDelegate.m */; };
 		462C45ED14F87B0700CDC670 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462C45EB14F87B0600CDC670 /* MainStoryboard.storyboard */; };
 		462C45F014F87B0700CDC670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462C45EF14F87B0700CDC670 /* ViewController.m */; };
+		462C45F814F87C2F00CDC670 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462C45F714F87C2F00CDC670 /* PlayerView.m */; };
+		462C45FA14F87C5900CDC670 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462C45F914F87C5900CDC670 /* AVFoundation.framework */; };
+		462C45FF14F8942500CDC670 /* iLabRightRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 462C45FC14F8942500CDC670 /* iLabRightRibbon.png */; };
+		462C460014F8942500CDC670 /* iLabLeftRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 462C45FD14F8942500CDC670 /* iLabLeftRibbon.png */; };
+		462C460114F8942500CDC670 /* RibbonFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 462C45FE14F8942500CDC670 /* RibbonFull.png */; };
+		462C460314F8964800CDC670 /* BackScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 462C460214F8964800CDC670 /* BackScreen.jpg */; };
+		462C460714F8A5F500CDC670 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 462C460614F8A5F500CDC670 /* Settings.bundle */; };
+		462C460914F8AD2100CDC670 /* Fireworks.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 462C460814F8AD2100CDC670 /* Fireworks.m4v */; };
+		462C460B14F92E8200CDC670 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462C460A14F92E8200CDC670 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +31,25 @@
 		462C45D914F87B0600CDC670 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		462C45DB14F87B0600CDC670 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		462C45DD14F87B0600CDC670 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		462C45E114F87B0600CDC670 /* iLabRibbonCutting-Info.plist */ = {isa = PBXFileReference; path = "iLabRibbonCutting-Info.plist"; sourceTree = "<group>"; };
+		462C45E114F87B0600CDC670 /* iLabRibbonCutting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLabRibbonCutting-Info.plist"; sourceTree = "<group>"; };
 		462C45E314F87B0600CDC670 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		462C45E514F87B0600CDC670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		462C45E714F87B0600CDC670 /* iLabRibbonCutting-Prefix.pch */ = {isa = PBXFileReference; path = "iLabRibbonCutting-Prefix.pch"; sourceTree = "<group>"; };
-		462C45E814F87B0600CDC670 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		462C45E714F87B0600CDC670 /* iLabRibbonCutting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLabRibbonCutting-Prefix.pch"; sourceTree = "<group>"; };
+		462C45E814F87B0600CDC670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		462C45E914F87B0600CDC670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		462C45EC14F87B0600CDC670 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		462C45EE14F87B0700CDC670 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		462C45EE14F87B0700CDC670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		462C45EF14F87B0700CDC670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		462C45F614F87C2F00CDC670 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		462C45F714F87C2F00CDC670 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		462C45F914F87C5900CDC670 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		462C45FC14F8942500CDC670 /* iLabRightRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iLabRightRibbon.png; sourceTree = "<group>"; };
+		462C45FD14F8942500CDC670 /* iLabLeftRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iLabLeftRibbon.png; sourceTree = "<group>"; };
+		462C45FE14F8942500CDC670 /* RibbonFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RibbonFull.png; sourceTree = "<group>"; };
+		462C460214F8964800CDC670 /* BackScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackScreen.jpg; sourceTree = "<group>"; };
+		462C460614F8A5F500CDC670 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		462C460814F8AD2100CDC670 /* Fireworks.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fireworks.m4v; sourceTree = "<group>"; };
+		462C460A14F92E8200CDC670 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462C460B14F92E8200CDC670 /* CoreMedia.framework in Frameworks */,
+				462C45FA14F87C5900CDC670 /* AVFoundation.framework in Frameworks */,
 				462C45DA14F87B0600CDC670 /* UIKit.framework in Frameworks */,
 				462C45DC14F87B0600CDC670 /* Foundation.framework in Frameworks */,
 				462C45DE14F87B0600CDC670 /* CoreGraphics.framework in Frameworks */,
@@ -67,9 +88,11 @@
 		462C45D814F87B0600CDC670 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				462C45F914F87C5900CDC670 /* AVFoundation.framework */,
 				462C45D914F87B0600CDC670 /* UIKit.framework */,
 				462C45DB14F87B0600CDC670 /* Foundation.framework */,
 				462C45DD14F87B0600CDC670 /* CoreGraphics.framework */,
+				462C460A14F92E8200CDC670 /* CoreMedia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,9 +100,14 @@
 		462C45DF14F87B0600CDC670 /* iLabRibbonCutting */ = {
 			isa = PBXGroup;
 			children = (
+				462C460814F8AD2100CDC670 /* Fireworks.m4v */,
+				462C460614F8A5F500CDC670 /* Settings.bundle */,
+				462C45FB14F8941400CDC670 /* Images */,
 				462C45E814F87B0600CDC670 /* AppDelegate.h */,
 				462C45E914F87B0600CDC670 /* AppDelegate.m */,
 				462C45EB14F87B0600CDC670 /* MainStoryboard.storyboard */,
+				462C45F614F87C2F00CDC670 /* PlayerView.h */,
+				462C45F714F87C2F00CDC670 /* PlayerView.m */,
 				462C45EE14F87B0700CDC670 /* ViewController.h */,
 				462C45EF14F87B0700CDC670 /* ViewController.m */,
 				462C45E014F87B0600CDC670 /* Supporting Files */,
@@ -96,6 +124,17 @@
 				462C45E714F87B0600CDC670 /* iLabRibbonCutting-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462C45FB14F8941400CDC670 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				462C460214F8964800CDC670 /* BackScreen.jpg */,
+				462C45FC14F8942500CDC670 /* iLabRightRibbon.png */,
+				462C45FD14F8942500CDC670 /* iLabLeftRibbon.png */,
+				462C45FE14F8942500CDC670 /* RibbonFull.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +189,12 @@
 			files = (
 				462C45E414F87B0600CDC670 /* InfoPlist.strings in Resources */,
 				462C45ED14F87B0700CDC670 /* MainStoryboard.storyboard in Resources */,
+				462C45FF14F8942500CDC670 /* iLabRightRibbon.png in Resources */,
+				462C460014F8942500CDC670 /* iLabLeftRibbon.png in Resources */,
+				462C460114F8942500CDC670 /* RibbonFull.png in Resources */,
+				462C460314F8964800CDC670 /* BackScreen.jpg in Resources */,
+				462C460714F8A5F500CDC670 /* Settings.bundle in Resources */,
+				462C460914F8AD2100CDC670 /* Fireworks.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +208,7 @@
 				462C45E614F87B0600CDC670 /* main.m in Sources */,
 				462C45EA14F87B0600CDC670 /* AppDelegate.m in Sources */,
 				462C45F014F87B0700CDC670 /* ViewController.m in Sources */,
+				462C45F814F87C2F00CDC670 /* PlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
